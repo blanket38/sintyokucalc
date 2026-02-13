@@ -209,7 +209,7 @@ function calculate() {
 
   // 実績時間
   const actual = passedDays
-    ? (resultShift / passedDays) * resultPeople
+    ? ((resultShift / passedDays) * resultPeople) * passedDays
     : 0;
 
   // 差分
